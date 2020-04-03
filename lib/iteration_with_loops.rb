@@ -8,8 +8,8 @@ row_index = 0
       if src.min < minimum_string_element
         minimum_string_element = src[row_index][element_index]
       end
-      element_index =+ 1 
-    end 
+    element_index += 1
+  end
     results << minimum_string_element
     row_index =+ 1 
 end
