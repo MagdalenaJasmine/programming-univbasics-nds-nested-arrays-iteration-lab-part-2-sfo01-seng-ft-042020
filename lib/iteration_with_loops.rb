@@ -10,7 +10,7 @@ row_index = 0
       end
     element_index += 1
   end
-    results << longest_string_element
+    results << minimum_string_element
     row_index += 1
 end
  
