@@ -3,14 +3,14 @@ results = []
 row_index = 0
   while row_index < src.count do
     element_index = 0
-    minimum_string_element = ""
+    minimum_array_element = [i]
     while element_index < src[row_index].count do 
-      if src[row_index][element_index] < minimum_string_element.length
-        minimum_string_element = src[row_index][element_index]
+      if src[row_index][element_index] < minimum_array_element.length
+        minimum_array_element = src[row_index][element_index]
       end
     element_index += 1
   end
-    results << minimum_string_element
+    results << minimum_array_element
     row_index += 1
 end
  
