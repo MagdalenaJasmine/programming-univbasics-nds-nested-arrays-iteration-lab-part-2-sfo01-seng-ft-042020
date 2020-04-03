@@ -15,3 +15,4 @@ def find_min_in_nested_arrays(src)
     results << minimum_string_element
     row_index =+ 1 
 end
+results
