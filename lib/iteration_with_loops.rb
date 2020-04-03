@@ -5,7 +5,7 @@ row_index = 0
     element_index = 0
     minimum_string_element = ""
     while element_index < src[row_index].count do 
-      if src[row_index][element_index] < minimum_string_element.count
+      if src[row_index][element_index].count < minimum_string_element.count
         minimum_string_element = src[row_index][element_index]
       end
     element_index += 1
